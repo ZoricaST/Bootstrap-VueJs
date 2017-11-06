@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet/less" type="text/css" href="styles.less" />
+<link rel="stylesheet" href="styleNaslovna.css">   
+	   <meta charset="utf-8">
+		<title>Oprema za stoni tenis</title>
+
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+ <div id="app"> 
+ <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="http://opremazastonitenis.matkos.in.rs/">{{ count1 }}</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about"> {{ count2 }}</a></li>
+        <li><a href="#services">{{ count3 }}</a></li>
+        <li><a href="#galerija">{{ count4 }}</a></li>
+        <li><a href="#oprema">{{ count5 }}</a></li>
+        <li><a href="#contact">{{ count6}}</a></li>
+		<li><button v-on:click="countUp" class="btn btn-primary">Srpski</button></li>
+		<li><button v-on:click="countDown" class="btn btn-primary">English</button></li>
+      </ul>
+    </div>
+  </div>
+</nav>   
+	
+	<br><br>
+
+	<div>
+<header class="v-header container">
+    <div class="fullscreen-video-wrap">
+      
+      <video src="Acabeckk.mp4" autoplay="" loop="">
+    </video>
+    </div>
+    <div class="header-overlay"></div>
+    <div class="header-content text-md-center">
+		<div id="app">
+		  <h1>{{ count1 }}</h1>
+		  <p>{{ count7}}</p>
+		  <a href="https://www.youtube.com/watch?v=4wp0Ace0aVM" class="btn">{{ count7 }}</a>
+		</div>
+		
+    </div>
+	
+  </header>
+ </div>
+	
+	<div id="about" class="container-fluid">
+   <section class="section section-a">
+    <div class="container">
+     <h2>{{ count9}}</h2>
+	 <p>{{ count10}}{{ count11}}{{ count12}}{{ count13}}{{ count14}}{{ count15}} </p>
+
+   
+    </div>
+  </section>
+</div>
+<div id="oprema" class="container-fluid">
+<div class="text-center">
+    <h2>{{ count5 }}</h2>
+    <h4>{{ count16 }}</h4>
+  </div>
+ </div>
+ 
+ <div class="row slideanim">
+ 
+  <div class="col-sm-4">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>{{ count17 }}</h1>
+        </div>
+        <div class="panel-body">
+          <p><strong>3</strong> DHS</p>
+          <p><strong>4</strong> Butterfly</p>
+          <p><strong>1</strong> Double Fish</p>
+          <p><strong>1</strong> Xiom</p>
+		  <p><strong>1</strong> Yasaka</p> 
+          <p><strong>{{ count18 }}</strong> :</p>
+        </div>
+        <div class="panel-footer">
+          <h3>10 </h3>
+          <h4>{{ count21 }} </h4> 
+          <a  href="http://opremazastonitenis.matkos.in.rs/oprema"><button class="btn btn-lg"> {{ count7 }}</button></a>
+        </div>
+      </div>
+    </div>
+	
+	  <div class="col-sm-4">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>{{ count19 }}</h1>
+        </div>
+        <div class="panel-body">
+          <p><strong>1</strong> DHS</p>
+          <p><strong>3</strong> Butterfly</p>
+          <p><strong>2</strong> Andro</p>
+          <p><strong>1</strong> Donic</p>
+		  <p><strong>1</strong> Yasaka</p> 
+          <p><strong>{{ count18 }} </strong> :</p>
+        </div>
+        <div class="panel-footer">
+          <h3>7 </h3>
+          <h4>{{ count30 }}</h4> 
+          <a  href="http://opremazastonitenis.matkos.in.rs/oprema"><button class="btn btn-lg">{{ count7 }}</button></a>
+        </div>
+      </div>
+    </div>
+	
+	<div class="col-sm-4">
+      <div class="panel panel-default text-center">
+        <div class="panel-heading">
+          <h1>{{ count20 }}</h1>
+        </div>
+        <div class="panel-body">
+          <p><strong> {{ count22 }}</strong></p>
+          <p><strong>{{ count23 }}</strong> </p>
+          <p><strong>{{ count24 }}</strong> </p>
+          <p><strong>{{ count25 }}</strong> </p>
+		  <p><strong>{{ count26 }}</strong> </p> 
+          <p><strong>{{ count18 }}</strong> :</p>
+        </div>
+        <div class="panel-footer">
+          <h3>10 </h3>
+          <h4>{{ count31 }} </h4> 
+          <a  href="http://opremazastonitenis.matkos.in.rs/oprema"><button class="btn btn-lg">{{ count7 }}</button></a>
+        </div>
+      </div>
+    </div>
+ </div>
+ 
+ <div id="gallery" class="container-fluid text-center bg-grey">
+ <h2>{{ count27 }}</h2>
+  <h4>{{ count28 }}</h4>
+  <div class="row text-center slideanim">
+  <div class="col-sm-4">
+      <div class="thumbnail">
+         <a href="http://opremazastonitenis.matkos.in.rs/strana/galdrva"><img src="opzstslike/Ma Long V.jpg" alt="Ma Long V"></a>
+        <a href="http://opremazastonitenis.matkos.in.rs/strana/galdrva"> <p><strong>{{ count29 }}</strong></p></a>
+        <p>{{ count32 }}</p>
+      </div>
+   </div>
+   
+   <div class="col-sm-4">
+      
+	   <div class="thumbnail">
+        <a href="http://opremazastonitenis.matkos.in.rs/strana/galgume"> <img src="opzstslike/B80T3s.jpg" alt="B80T3s">
+        <p><strong>{{ count33 }}</strong></p></a>
+        <p>{{ count34 }}</p>
+      </div>
+    </div>
+	
+	<div class="col-sm-4">
+      <div class="thumbnail">
+      <a href="http://opremazastonitenis.matkos.in.rs/strana/galostalo"> <img src="opzstslike/sto10s.jpg" alt="sto">
+        <p><strong>{{ count35 }}</strong></p></a>
+        <p>{{ count36 }}</p>
+      </div>
+    </div>
+	
+  </div>
+ </div>
+ 
+ <div id="contact" class="container-fluid bg-grey">
+ <h2 class="text-center">{{ count37 }}</h2>
+ <div class="row">
+		 <div class="col-sm-5">
+			  <br><br>
+			  <p><span class="glyphicon glyphicon-map-marker"></span> Serbia, SR</p><br>
+			  <p><span class="glyphicon glyphicon-phone"></span> +381644988845</p><br>
+			  <p><span class="glyphicon glyphicon-envelope"></span> zoricajelicst@gmail.com</p>
+			  <a  href="http://opremazastonitenis.matkos.in.rs/strana/kontakt"><button class="btn btn-lg"> {{ count38 }}</button></a><br><br>
+			</div>
+			<div class="col-sm-7"><!-- Add Google Maps -->
+   <div id="silicon-alpha-176719" style="height:400px;width:100%;"></div>
+<script>
+function myMap() {
+var myCenter = new google.maps.LatLng(44.4402098, 21.0347911);
+var mapProp = {center:myCenter, zoom:12, scrollwheel:false, draggable:false, mapTypeId:google.maps.MapTypeId.ROADMAP};
+var map = new google.maps.Map(document.getElementById("silicon-alpha-176719"),mapProp);
+var marker = new google.maps.Marker({position:myCenter});
+marker.setMap(map);
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDIABzb05XjJfeOtTNeoDnbzH8GwJwGtUg&callback=myMap"></script> 
+  </div>
+ </div>
+
+ </div>
+ 
+  <footer class="container-fluid text-center">
+  <a href="#myPage" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+  <p>{{ count39 }} Zorica <a href="www.matkos.in.rs" title="Posetite i sajt ">Matkos</a></p>
+</footer>
+  <script src="https://unpkg.com/vue@2.0.3/dist/vue.js"></script>
+	<script>
+    var app = new Vue({
+      el: '#app',
+      data: {      
+		count1:'Table tennis equipment',
+		count2:'About us',
+		count3:'Services',
+		count4:'Gallery',
+		count5:'Equipment',
+		count6:'Contact',
+		count7:'See more',		
+		count8:'This is a site dedicated to fans of table tennis equipment! Look at the pictures of the equipment we have tried and read our impressions about it',
+		count9:'About Table Tennis Equipment',
+		count10:'This is a site dedicated to fans of table tennis equipment.',
+		count11:' Na ovom sajtu možete da pogledate u odeljku Oprema postove naših eksperata za opremu.',
+		count12:'It is about the equipment we had, tried and experienced.',
+		count13:'With this equipment you can read the basic data and characteristics, and to whom it is intended.',
+		count14:'You can boast or poke some kind of equipment to emphasize its good features or flaws.',
+		count15:'You can give your opinion or recommendation.',
+		count16:'We had, we tried and presented you this equipment',
+		count17:'BLADES',
+		count18:'In total',
+		count19:'Rubbers',
+		count20:'OTHERS',
+		count21:'different brands of blades',
+		count22:'T-shirts',		
+		count23:'Tables',
+		count24:'Balls',
+		count25:'Nets',
+		count26:'Other',
+		count27:'GALLERY',
+		count28:'Look at the pictures of the equipment we tried',
+		count29:'Blades',
+		count30:'different brands of rubbers',
+		count31:'different brands of others equipment',
+		count32:'All the most famous brands',
+		count33:'Rubbers',
+		count34:' which are used in our country and in the world ',
+		count35:' Other equipment',
+		count36:' Tables, balls, clothes',
+		count37:' CONTACT',
+		count38:' Contact us',
+		count39:' Made by'
+      },
+	  methods:{
+	  countUp: function(){
+	  this.count1 ='Oprema za stoni tenis',
+	  this.count2 ='O nama',
+	  this.count3 ='Sta',
+	  this.count4 ='Galerija',
+	  this.count5 ='Oprema',
+	  this.count6 ='Kontakt',
+	  this.count7 ='Pogledajte još',	 
+	  this.count8 ='Ovo je sajt namenjen ljubiteljima stonoteniske opreme!Pogledajte slike opreme koju smo probali i pročitajte naše utiske o tome',
+	  this.count9 ='O Opremi za stoni tenis',
+	  this.count10 ='Ovo je sajt namenjen ljubiteljima stonoteniske opreme.'
+	  this.count11 ='Na ovom sajtu možete da pogledate u odeljku Oprema postove naših eksperata za opremu. ',
+	  this.count12 ='Radi se o opremi koju smo mi imali, probali i iskusili. ',
+      this.count13 ='Uz tu opremu možete da pročitate osnovne podatke i karakteristike, kao i kome je namenjena. ',
+	  this.count14 ='Možete da pohvalite ili pokudite neku vrstu opreme, da naglasite njene dobre osobine ili mane.',
+	  this.count15 ='Možete da navedete neko vaše mišljenje ili preporuku. ',
+	  this.count16 ='Imali smo, probali smo i predstavljamo vam ovu opremu',
+	  this.count17 ='DASKE',
+	  this.count18 ='Ukupno',
+	  this.count19= 'GUME',
+	  this.count20= 'OSTALO',	  
+	  this.count21= 'različitih brendova daski',
+	  this.count22= 'Majice',
+	  this.count23= 'Stolovi',	  
+	  this.count24= 'Loptice',
+	  this.count25= 'Mrežica',
+	  this.count26= 'Ostalo',
+	  this.count27= 'GALERIJA',
+	  this.count28= 'Pogledajte slike opreme koju smo probali',
+	  this.count29= 'Daske',
+	  this.count30= 'različitih brendova guma',
+	  this.count31= 'različitih brendova ostale opreme',
+	  this.count32= 'Sve najpoznatije marke',
+	  this.count33= 'Gume',
+	  this.count34= 'koje se koriste kod nas i u svetu ',
+	  this.count35= 'Other equipment ',
+	  this.count36= 'Stolovi, loptice, garderoba',
+	  this.count37= 'KONTAKT',
+	  this.count38= ' Pišite nam',
+	  this.count39= ' Sajt napravila'
+	  
+	  },
+	  countDown: function(){
+	  this.count1 ='Table tennis equipment',
+	  this.count2 ='About us',
+	  this.count3 ='Services',
+	  this.count4 ='Gallery',
+	  this.count5 ='Equipment',
+	  this.count6 ='Contact',
+	  this.count7 ='See more',	 
+	  this.count8 ='This is a site dedicated to fans of table tennis equipment! Look at the pictures of the equipment we have tried and read our impressions about it',
+	  this.count9 ='About Table Tennis Equipment',
+	  this.count10 ='This is a site dedicated to fans of table tennis equipment.',
+	  this.count11 ='On this site, you can look in the Equipment section of the posts of our equipment experts.',
+	  this.count12 ='It is about the equipment we had, tried and experienced.',
+	  this.count13 ='With this equipment you can read the basic data and characteristics, and to whom it is intended.',
+	  this.count14 ='You can boast or poke some kind of equipment to emphasize its good features or flaws.',
+	  this.count15 ='You can give your opinion or recommendation.',
+	  this.count16 ='We had, we tried and presented you this equipment',
+	  this.count17 ='BLADES',
+	  this.count18 ='In total',
+	  this.count19= 'Rubbers', 
+	  this.count20= 'OTHERS',	
+	  this.count21='different brands of blades',
+	  this.count22='T-shirts',
+	  this.count23='Tables', 
+	  this.count24='Balls',	
+	  this.count25='Nets',
+	  this.count26='Other',
+	  this.count27='GALLERY',
+	  this.count28='Look at the pictures of the equipment we tried',
+	  this.count29='Blades',
+	  this.count30='different brands of rubbers',
+	  this.count31='different brands of others equipment',
+	  this.count32='All the most famous brands',
+	  this.count33='Rubbers',
+	  this.count34='which are used in our country and in the world',
+	  this.count33='Rubbers',
+	  this.count34='which are used in our country and in the world',
+	  this.count35=' Other equipment',
+	  this.count36=' Tables, balls, clothes',
+	  this.count37='CONTACT',
+	  this.count38='Contact us',
+	  this.count39='Made by'
+	  }	  
+	  }
+    })
+  </script>
+   </div>
+  
+  
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDIABzb05XjJfeOtTNeoDnbzH8GwJwGtUg&callback=myMap"></script> 
+<script src="scriptOZST.js"></script>
+  
+</body>
+</html>
